@@ -1,0 +1,3 @@
+# Massey-159.171
+A collaborative repository for answering questions in the study material of Massey course 159.171.
+This repository features my answers to questions in How to Think Like a Computer Scientist (HTTLACS) (https://runestone.academy/runestone/static/thinkcspy/index.html), and the non-assessed portions of topics and tutorials. All uploads should be .py files, and should be ready to run in PyCharm (code ready for execution shouldn't be commented out). I encourage other students to contribute with discussion and with their own solutions. I am still learning how to use GitHub, so it might be a mess at first, but hopefully it proves useful for any students on this course. 
