@@ -2,7 +2,7 @@
 
 # Display the value for each of 'title', 'cost' and 'brand' in the following dictionary,
 #
-# item = {'title':'Toaster', 'cost':'79.95', 'brand': 'Vogels' }
+item = {'title':'Toaster', 'cost':'79.95', 'brand': 'Vogels' }
 #
 # print(item.values())
 
@@ -12,8 +12,8 @@
 #
 # There will be only one print statement.
 
-# for key, values in item.items():
-#     print(key, values)
+for key, values in item.items():
+    print(key, values)
 
 # Problem 3 - Updating values in a dictionary
 #
@@ -21,10 +21,10 @@
 #
 # Then display the updated values of the name-value pairs, using the for-loop from Problem 2.
 
-# item['cost'] = '49.95'
-#
-# for key, values in item.items():
-#     print(key, values)
+item['cost'] = '49.95'
+
+for key, values in item.items():
+    print(key, values)
 
 # Problem 4: Write a function that creates dictionary entries
 #
@@ -176,13 +176,11 @@
 # It's much easier if you use the second form of dictionary shown in the previous problem.
 
 def dict_update():
-    dict = {'title':None, 'cost':None}
-    title_value = input("Enter a title: ")
-    if title_value.lower() == 'quit':
-        return None
-    cost_value = input("Enter the cost ($): ")
-    dict['title'] = title_value
-    dict['cost'] = cost_value
+    dict = {}
+    dict['title'] = input("Enter a title: ")
+    if dict['title'].lower() == 'quit':
+        return
+    dict['cost'] = input("Enter the cost ($): ")
     return dict
 
 itemdict = {}
